@@ -1,7 +1,7 @@
 global _start
 
 section .data
-    msg db "Hello, world!", 0x0A
+    msg db "Hello world!", 0x0A
     msglen equ $ - msg
 
 section .text

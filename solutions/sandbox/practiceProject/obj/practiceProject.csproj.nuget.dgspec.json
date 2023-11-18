@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ezfiles\\coding\\C#\\helloworld\\helloworld.csproj": {}
+    "C:\\ezfiles\\coding\\C#\\solutions\\sandbox\\practiceProject\\practiceProject.csproj": {}
   },
   "projects": {
-    "C:\\ezfiles\\coding\\C#\\helloworld\\helloworld.csproj": {
+    "C:\\ezfiles\\coding\\C#\\solutions\\sandbox\\practiceProject\\practiceProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ezfiles\\coding\\C#\\helloworld\\helloworld.csproj",
-        "projectName": "helloworld",
-        "projectPath": "C:\\ezfiles\\coding\\C#\\helloworld\\helloworld.csproj",
+        "projectUniqueName": "C:\\ezfiles\\coding\\C#\\solutions\\sandbox\\practiceProject\\practiceProject.csproj",
+        "projectName": "practiceProject",
+        "projectPath": "C:\\ezfiles\\coding\\C#\\solutions\\sandbox\\practiceProject\\practiceProject.csproj",
         "packagesPath": "C:\\Users\\percy\\.nuget\\packages\\",
-        "outputPath": "C:\\ezfiles\\coding\\C#\\helloworld\\obj\\",
+        "outputPath": "C:\\ezfiles\\coding\\C#\\solutions\\sandbox\\practiceProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\percy\\AppData\\Roaming\\NuGet\\NuGet.Config",

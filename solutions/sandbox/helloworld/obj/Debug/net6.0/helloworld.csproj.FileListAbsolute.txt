@@ -1,0 +1,14 @@
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\bin\Debug\net6.0\helloworld.exe
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\bin\Debug\net6.0\helloworld.deps.json
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\bin\Debug\net6.0\helloworld.runtimeconfig.json
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\bin\Debug\net6.0\helloworld.dll
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\bin\Debug\net6.0\helloworld.pdb
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.AssemblyInfoInputs.cache
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.AssemblyInfo.cs
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.csproj.CoreCompileInputs.cache
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.dll
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\refint\helloworld.dll
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.pdb
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\helloworld.genruntimeconfig.cache
+C:\ezfiles\coding\C#\solutions\sandbox\helloworld\obj\Debug\net6.0\ref\helloworld.dll

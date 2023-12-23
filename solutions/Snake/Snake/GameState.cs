@@ -10,7 +10,7 @@ namespace Snake
         public GridValue[,] Grid { get; }
         public Direction Dir { get; private set; }
         public int Score { get; private set; }
-        public bool GameOver { get; private set; }
+        public bool GameOver { get; set; }
 
         private readonly LinkedList<Direction> dirChanges = new LinkedList<Direction>();
         private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();

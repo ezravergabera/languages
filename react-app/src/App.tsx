@@ -8,28 +8,31 @@ function App() {
         Hello <span>World</span>
       </Alert>
 
-      <Button btnType='primary'>
+      <Button onClick={() => console.log('Clicked')}>
         primary testing
       </Button>
-      <Button btnType='secondary'>
+      <Button onClick={() => console.log('Clicked')} btnType='primary'>
+        primary testing
+      </Button>
+      <Button onClick={() => console.log('Clicked')} btnType='secondary'>
         secondary testing
       </Button>
-      <Button btnType='success'>
+      <Button onClick={() => console.log('Clicked')} btnType='success'>
         success testing
       </Button>
-      <Button btnType='danger'>
+      <Button onClick={() => console.log('Clicked')} btnType='danger'>
         danger testing
       </Button>
-      <Button btnType='warning'>
+      <Button onClick={() => console.log('Clicked')}btnType='warning'>
         warning testing
       </Button>
-      <Button btnType='info'>
+      <Button onClick={() => console.log('Clicked')} btnType='info'>
         info testing
       </Button>
-      <Button btnType='light'>
+      <Button onClick={() => console.log('Clicked')} btnType='light'>
         light testing
       </Button>
-      <Button btnType='dark'>
+      <Button onClick={() => console.log('Clicked')} btnType='dark'>
         dark testing
       </Button>
     </div>

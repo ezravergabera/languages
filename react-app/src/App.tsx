@@ -1,38 +1,41 @@
+import { useState } from 'react';
 import Alert from './components/Alert'
 import Button from './components/Button'
 
 function App() {
+  const [alertVisible, setAlertVisibility] = useState(false)
+
   return (
     <div>
-      <Alert>
+      {alertVisible && <Alert onClose={() => setAlertVisibility(false)}>
         Hello <span>World</span>
-      </Alert>
+      </Alert>}
 
-      <Button onClick={() => console.log('Clicked')}>
+      <Button onClick={() => setAlertVisibility(true)}>
         primary testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='primary'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='primary'>
         primary testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='secondary'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='secondary'>
         secondary testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='success'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='success'>
         success testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='danger'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='danger'>
         danger testing
       </Button>
-      <Button onClick={() => console.log('Clicked')}btnType='warning'>
+      <Button onClick={() => setAlertVisibility(true)}btnType='warning'>
         warning testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='info'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='info'>
         info testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='light'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='light'>
         light testing
       </Button>
-      <Button onClick={() => console.log('Clicked')} btnType='dark'>
+      <Button onClick={() => setAlertVisibility(true)} btnType='dark'>
         dark testing
       </Button>
     </div>

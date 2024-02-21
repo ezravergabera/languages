@@ -1,3 +1,23 @@
+//! random number generator
+const myBtn = document.getElementById("myBtn");
+const myLabel = document.getElementById("myLabel");
+
+myBtn.onclick = function() {
+    let randomNum = Math.floor(Math.random() * 6) + 1;
+    myLabel.textContent = `Your number is: ${randomNum}`;
+}
+
+
+
+//! Practiced random number within a range
+// const min = 50;
+// const max = 100;
+
+// let randomNum = Math.floor(Math.random() * (max - min)) + min;
+
+// console.log(randomNum);
+
+
 //! MATH object
 // let x = 3.1415;
 // let y = 2;

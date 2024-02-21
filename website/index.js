@@ -32,9 +32,16 @@
 
 
 //! input
-let username;
+// let username;
 
-document.getElementById("mySubmit").onclick = function() {
-    username = document.getElementById("myText").value;
-    document.getElementById("myH1").textContent = username ? `Welcome ${username}!` : `Welcome`;
-}
+// document.getElementById("mySubmit").onclick = function() {
+//     username = document.getElementById("myText").value;
+//     document.getElementById("myH1").textContent = username ? `Welcome ${username}!` : `Welcome`;
+// }
+
+//! type conversion
+let age = window.prompt("How old are you?");
+age = Number(age);
+age+=1;
+
+console.log(age);

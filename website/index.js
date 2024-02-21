@@ -11,21 +11,30 @@
 
 //! variables
 // number data types
-let age = 25;
-let price = 10.99;
-let gpa = 2.1;
+// let age = 25;
+// let price = 10.99;
+// let gpa = 2.1;
 
-// string data types
-let firstName = "Ezra";
-let lastName = "Vergabera";
+// // string data types
+// let firstName = "Ezra";
+// let lastName = "Vergabera";
 
-// boolean data types
-let online = true;
+// // boolean data types
+// let online = true;
 
-console.log(typeof age)
-console.log(typeof firstName)
-console.log(typeof online)
-console.log(`You are ${age} years old`);
-console.log(`The price is P${price}`); 
-console.log(`Your gpa is: ${gpa}`); 
-console.log(`Your name is ${firstName} ${lastName}`)
+// console.log(typeof age)
+// console.log(typeof firstName)
+// console.log(typeof online)
+// console.log(`You are ${age} years old`);
+// console.log(`The price is P${price}`); 
+// console.log(`Your gpa is: ${gpa}`); 
+// console.log(`Your name is ${firstName} ${lastName}`)
+
+
+//! input
+let username;
+
+document.getElementById("mySubmit").onclick = function() {
+    username = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = username ? `Welcome ${username}!` : `Welcome`;
+}

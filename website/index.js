@@ -1,5 +1,22 @@
+//! callback
+function sum(callback, x, y) {
+    let result = x + y;
+    callback(result);
+}
+
+function displayConsole(res) {
+    console.log(res);
+}
+
+function displayPage(res) {
+    document.getElementById("myH1").textContent = res;
+}
+
+sum(displayPage, 4, 6);
+
+
 //! method chaining
-let username = window.prompt("Enter your username");
+// let username = window.prompt("Enter your username");
 
 // // no method chaining
 // username = username.trim();
@@ -13,9 +30,9 @@ let username = window.prompt("Enter your username");
 // console.log(`Your username is ${username}`);
 
 // method chaining
-username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 
-console.log(`Your username is ${username}`);
+// console.log(`Your username is ${username}`);
 
 
 //! switches

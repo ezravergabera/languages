@@ -1,3 +1,33 @@
+//! switches
+let day = "Pizza";
+
+switch(day) {
+    case 1:
+        console.log("It's Monday");
+        break;
+    case 2:
+        console.log("It's Tuesday");
+        break;
+    case 3:
+        console.log("It's Wednesday");
+        break;
+    case 4:
+        console.log("It's Thursday");
+        break;
+    case 5:
+        console.log("It's Friday");
+        break;
+    case 6:
+        console.log("It's Saturday");
+        break;
+    case 7:
+        console.log("It's Sunday");
+        break;
+    default:
+        console.log(`${day} is not a day`);
+}
+
+
 //! Ternary operator
 // let age = 21;
 // let message = age >= 18 ? "You're an adult" : "You're a minor"
@@ -11,9 +41,9 @@
 // let message = isStudent ? "You are a student" : "You are not a student"
 // console.log(message);
 
-let purchaseAmount = 99;
-let discount = purchaseAmount >= 100 ? 10 : 0;
-console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount/100)}`);
+// let purchaseAmount = 99;
+// let discount = purchaseAmount >= 100 ? 10 : 0;
+// console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount/100)}`);
 
 
 //! checked property

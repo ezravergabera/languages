@@ -1,33 +1,51 @@
+//! Ternary operator
+// let age = 21;
+// let message = age >= 18 ? "You're an adult" : "You're a minor"
+// console.log(message);
+
+// let time = 16;
+// let greeting = time < 12 ? "Good morning!" : "Good afternoon";
+// console.log(greeting);
+
+// let isStudent = true;
+// let message = isStudent ? "You are a student" : "You are not a student"
+// console.log(message);
+
+let purchaseAmount = 99;
+let discount = purchaseAmount >= 100 ? 10 : 0;
+console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount/100)}`);
+
+
 //! checked property
-const myCheckBox = document.getElementById("myCheckBox");
-const visaBtn = document.getElementById("visaBtn");
-const masterCardBtn = document.getElementById("masterCardBtn");
-const payPalBtn = document.getElementById("payPalBtn");
-const mySubmit = document.getElementById("mySubmit");
-const subResult = document.getElementById("subResult");
-const paymentSubmit = document.getElementById("paymentSubmit");
+// const myCheckBox = document.getElementById("myCheckBox");
+// const visaBtn = document.getElementById("visaBtn");
+// const masterCardBtn = document.getElementById("masterCardBtn");
+// const payPalBtn = document.getElementById("payPalBtn");
+// const mySubmit = document.getElementById("mySubmit");
+// const subResult = document.getElementById("subResult");
+// const paymentSubmit = document.getElementById("paymentSubmit");
 
-mySubmit.onclick = function() {
-    if(myCheckBox.checked) {
-        subResult.textContent = `You are subscribed!`;
-    }
-    else {
-        subResult.textContent = `You are NOT subscribed!`;
-    }
+// mySubmit.onclick = function() {
+//     if(myCheckBox.checked) {
+//         subResult.textContent = `You are subscribed!`;
+//     }
+//     else {
+//         subResult.textContent = `You are NOT subscribed!`;
+//     }
 
-    if(visaBtn.checked) {
-        paymentResult.textContent = `You are paying with Visa`;
-    }
-    else if(masterCardBtn.checked) {
-        paymentResult.textContent = `You are paying with MasterCard`;
-    }
-    else if(payPalBtn.checked) {
-        paymentResult.textContent = `You are paying with PayPal`;
-    }
-    else {
-        paymentResult.textContent = `You must select a payment type`;
-    }
-}
+//     if(visaBtn.checked) {
+//         paymentResult.textContent = `You are paying with Visa`;
+//     }
+//     else if(masterCardBtn.checked) {
+//         paymentResult.textContent = `You are paying with MasterCard`;
+//     }
+//     else if(payPalBtn.checked) {
+//         paymentResult.textContent = `You are paying with PayPal`;
+//     }
+//     else {
+//         paymentResult.textContent = `You must select a payment type`;
+//     }
+// }
 
 
 //! random number generator

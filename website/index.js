@@ -1,12 +1,43 @@
-//! random number generator
-const myBtn = document.getElementById("myBtn");
-const myLabel = document.getElementById("myLabel");
+//! checked property
+const myCheckBox = document.getElementById("myCheckBox");
+const visaBtn = document.getElementById("visaBtn");
+const masterCardBtn = document.getElementById("masterCardBtn");
+const payPalBtn = document.getElementById("payPalBtn");
+const mySubmit = document.getElementById("mySubmit");
+const subResult = document.getElementById("subResult");
+const paymentSubmit = document.getElementById("paymentSubmit");
 
-myBtn.onclick = function() {
-    let randomNum = Math.floor(Math.random() * 6) + 1;
-    myLabel.textContent = `Your number is: ${randomNum}`;
+mySubmit.onclick = function() {
+    if(myCheckBox.checked) {
+        subResult.textContent = `You are subscribed!`;
+    }
+    else {
+        subResult.textContent = `You are NOT subscribed!`;
+    }
+
+    if(visaBtn.checked) {
+        paymentResult.textContent = `You are paying with Visa`;
+    }
+    else if(masterCardBtn.checked) {
+        paymentResult.textContent = `You are paying with MasterCard`;
+    }
+    else if(payPalBtn.checked) {
+        paymentResult.textContent = `You are paying with PayPal`;
+    }
+    else {
+        paymentResult.textContent = `You must select a payment type`;
+    }
 }
 
+
+//! random number generator
+// const myBtn = document.getElementById("myBtn");
+// const myLabel = document.getElementById("myLabel");
+
+// myBtn.onclick = function() {
+//     let randomNum = Math.floor(Math.random() * 6) + 1;
+//     myLabel.textContent = `Your number is: ${randomNum}`;
+// }
 
 
 //! Practiced random number within a range

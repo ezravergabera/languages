@@ -7,8 +7,20 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <button id="myBtn">roll</button> <br>
-        <label id="myLabel"></label>
+        <input type="checkbox" id="myCheckBox">
+        <label for="myCheckBox">subscribe</label><br>
+
+        <input type="radio" id="visaBtn" name="card">
+        <label for="visaBtn">Visa</label><br>
+        <input type="radio" id="masterCardBtn" name="card">
+        <label for="masterCardBtn">Master Card</label><br>
+        <input type="radio" id="payPalBtn" name="card">
+        <label for="payPalBtn">PayPal</label><br><br>
+
+        <button type="submit" id="mySubmit">submit</button>
+
+        <p id="subResult"></p>
+        <p id="paymentResult"></p>
 
         <script src="index.js"></script>
     </body>

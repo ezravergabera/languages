@@ -1,3 +1,14 @@
+//! Arrow functions
+// const hello = (name, age) => {
+//     console.log(`Hello ${name}`);
+//     console.log(`You are ${age} years old`);
+// }
+
+// hello("Ezra", 21);
+
+setTimeout(() => console.log("Hello"), 3000);
+
+
 //! function expressions
 //? function declaration
 // function hello() {
@@ -12,9 +23,9 @@
 // hello();
 
 //? passing function as a value
-setTimeout(function() {
-    console.log("Hello");
-}, 3000);
+// setTimeout(function() {
+//     console.log("Hello");
+// }, 3000);
 
 
 //! map() is like for each but returns a new array

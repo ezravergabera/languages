@@ -1,18 +1,58 @@
+//! forEach()
+// let numbers = [1, 2, 3, 4, 5];
+
+// numbers.forEach(double);
+// numbers.forEach(display);
+
+// function double(element, index, array) {
+//     array[index] = element * 2;
+// }
+
+// function triple(element, index, array) {
+//     array[index] = element * 3;
+// }
+
+// function square(element, index, array) {
+//     array[index] = Math.pow(element, 2);
+// }
+
+// function cube(element, index, array) {
+//     array[index] = Math.pow(element, 3);
+// }
+
+// function display(element) {
+//     console.log(element);
+// }
+
+let fruits = ["apple", "orange", "banana", "coconut"];
+
+fruits.forEach(upperCase);
+fruits.forEach(display);
+
+function upperCase(element, index, array) {
+    array[index] = element.toUpperCase();
+}
+
+function display(element) {
+    console.log(element);
+}
+
+
 //! callback
-function sum(callback, x, y) {
-    let result = x + y;
-    callback(result);
-}
+// function sum(callback, x, y) {
+//     let result = x + y;
+//     callback(result);
+// }
 
-function displayConsole(res) {
-    console.log(res);
-}
+// function displayConsole(res) {
+//     console.log(res);
+// }
 
-function displayPage(res) {
-    document.getElementById("myH1").textContent = res;
-}
+// function displayPage(res) {
+//     document.getElementById("myH1").textContent = res;
+// }
 
-sum(displayPage, 4, 6);
+// sum(displayPage, 4, 6);
 
 
 //! method chaining

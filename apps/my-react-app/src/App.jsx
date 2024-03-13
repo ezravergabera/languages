@@ -7,12 +7,12 @@ import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
 
 function App() {
   return (
     <>
-      <Button></Button>
-      <ProfilePicture></ProfilePicture>
+      <MyComponent></MyComponent>
     </>
   );
 }

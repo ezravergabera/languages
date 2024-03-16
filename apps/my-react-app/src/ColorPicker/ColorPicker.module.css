@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.colorPickerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorPickerTitle{
+    margin: 50px;
+    font-size: 3rem;
+}
+.colorDisplay{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25 ease;
+}
+.colorDisplay p{
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+.colorPickerInput{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.colorPickerInput label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.colorPickerInput input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+}

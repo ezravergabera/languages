@@ -12,11 +12,12 @@ import Counter from './Counter.jsx'
 import MyComponent2 from './MyComponent2.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
+import Array from './Array.jsx'
 
 function App() {
   return (
     <>
-      <MyComponent3/>
+      <Array/>
     </>
   );
 }

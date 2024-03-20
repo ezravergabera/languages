@@ -14,11 +14,12 @@ import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import MyComponent3 from './MyComponent3.jsx'
 import Array from './Array.jsx'
 import ArrayObjects from './ArrayObjects.jsx'
+import ToDoList from './ToDoList/ToDoList.jsx'
 
 function App() {
   return (
     <>
-      <ArrayObjects/>
+      <ToDoList/>
     </>
   );
 }

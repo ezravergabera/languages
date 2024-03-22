@@ -15,11 +15,12 @@ import MyComponent3 from './MyComponent3.jsx'
 import Array from './Array.jsx'
 import ArrayObjects from './ArrayObjects.jsx'
 import ToDoList from './ToDoList/ToDoList.jsx'
+import MyComponent4 from './MyComponent4.jsx'
 
 function App() {
   return (
     <>
-      <ToDoList/>
+      <MyComponent4/>
     </>
   );
 }

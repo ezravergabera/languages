@@ -17,11 +17,12 @@ import ArrayObjects from './ArrayObjects.jsx'
 import ToDoList from './ToDoList/ToDoList.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
+import DigitalClock from './DigitalClock/DigitalClock.jsx'
 
 function App() {
   return (
     <>
-      <MyComponent5/>
+      <DigitalClock/>
     </>
   );
 }

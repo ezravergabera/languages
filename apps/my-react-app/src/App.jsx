@@ -18,11 +18,12 @@ import ToDoList from './ToDoList/ToDoList.jsx'
 import MyComponent4 from './MyComponent4.jsx'
 import MyComponent5 from './MyComponent5.jsx'
 import DigitalClock from './DigitalClock/DigitalClock.jsx'
+import ComponentA from './ComponentA.jsx'
 
 function App() {
   return (
     <>
-      <DigitalClock/>
+      <ComponentA/>
     </>
   );
 }

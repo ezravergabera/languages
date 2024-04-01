@@ -20,11 +20,12 @@ import MyComponent5 from './MyComponent5.jsx'
 import DigitalClock from './DigitalClock/DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
 import MyComponent6 from './MyComponent6.jsx'
+import Stopwatch from './Stopwatch.jsx'
 
 function App() {
   return (
     <>
-      <MyComponent6/>
+      <Stopwatch/>
     </>
   );
 }

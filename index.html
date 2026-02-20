@@ -34,6 +34,17 @@
 
       function HomePage() {
         const names = ["Arjie", "Ezra", "Fiona"];
+        const [likes, setLikes] = React.useState(0);
+        
+        function incrementLikeCounter() {
+            setLikes(likes + 1);
+        }
+
+        function decrementLikeCounter() {
+            if (likes != 0) {
+                setLikes(likes - 1);
+            }
+        }
 
         return <div>
             <Header title="React"/>
@@ -46,6 +57,9 @@
                     ))}
                 </ul>
             }/>
+            <h1>Likes: {likes}</h1>
+            <button onClick={incrementLikeCounter}>Like</button>
+            <button onClick={decrementLikeCounter}>Unlike</button>
             <hr/>
             <Header title={createTitle("Title from a Function")}/>
         </div>;

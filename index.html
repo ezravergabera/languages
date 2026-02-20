@@ -8,13 +8,46 @@
     <script type="text/jsx">
       const app = document. getElementById('app');
 
-      function Header() {
-        return <h1>Hello World!</h1>;
+      function Header({ title }) {
+        console.log(title);
+        return <>
+            <h1>Hello World!</h1>
+            <h2>Playing with {title ? title : "Nothing"}</h2>
+        </>;
+      }
+      
+      function Body(prop) {
+        console.log("this is a prop: " + prop.body);
+        return <>
+            <h1>{prop.body}</h1>
+            <h1>{`Template Literal Example: ${prop.body}`}</h1>
+        </>;
+      }
+
+      function createTitle(title) {
+        if (title) {
+            return title;
+        } else {
+            return 'Default Title';
+        }
       }
 
       function HomePage() {
+        const names = ["Arjie", "Ezra", "Fiona"];
+
         return <div>
+            <Header title="React"/>
             <Header/>
+            <Body body="Hello World Body!"/>
+            <Body body={
+                <ul>
+                    {names.map((name) => (
+                        <li key={name}>{name}</li>
+                    ))}
+                </ul>
+            }/>
+            <hr/>
+            <Header title={createTitle("Title from a Function")}/>
         </div>;
       }
 

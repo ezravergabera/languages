@@ -1,0 +1,9 @@
+global _start
+
+_start:
+    mov eax, 1
+    mov ebx, 42
+    sub ebx, 29
+    add ebx, 0x2
+    add ebx, 0xA
+    int 0x80

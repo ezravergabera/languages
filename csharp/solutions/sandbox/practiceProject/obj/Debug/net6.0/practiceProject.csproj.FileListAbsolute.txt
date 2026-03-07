@@ -1,0 +1,14 @@
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\bin\Debug\net6.0\practiceProject.exe
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\bin\Debug\net6.0\practiceProject.deps.json
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\bin\Debug\net6.0\practiceProject.runtimeconfig.json
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\bin\Debug\net6.0\practiceProject.dll
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\bin\Debug\net6.0\practiceProject.pdb
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.AssemblyInfoInputs.cache
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.AssemblyInfo.cs
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.csproj.CoreCompileInputs.cache
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.dll
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\refint\practiceProject.dll
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.pdb
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\practiceProject.genruntimeconfig.cache
+C:\ezfiles\coding\C#\solutions\sandbox\practiceProject\obj\Debug\net6.0\ref\practiceProject.dll

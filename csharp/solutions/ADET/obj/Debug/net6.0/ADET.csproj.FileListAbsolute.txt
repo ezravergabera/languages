@@ -1,0 +1,14 @@
+C:\ezfiles\coding\C#\solutions\ADET\bin\Debug\net6.0\ADET.exe
+C:\ezfiles\coding\C#\solutions\ADET\bin\Debug\net6.0\ADET.deps.json
+C:\ezfiles\coding\C#\solutions\ADET\bin\Debug\net6.0\ADET.runtimeconfig.json
+C:\ezfiles\coding\C#\solutions\ADET\bin\Debug\net6.0\ADET.dll
+C:\ezfiles\coding\C#\solutions\ADET\bin\Debug\net6.0\ADET.pdb
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.GeneratedMSBuildEditorConfig.editorconfig
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.AssemblyInfoInputs.cache
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.AssemblyInfo.cs
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.csproj.CoreCompileInputs.cache
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.dll
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\refint\ADET.dll
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.pdb
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ADET.genruntimeconfig.cache
+C:\ezfiles\coding\C#\solutions\ADET\obj\Debug\net6.0\ref\ADET.dll

@@ -1,0 +1,18 @@
+fprintf("Name: Arjie Rose G. Conge\nCourse, Year and Section: BSEE-3C\nCourse title: Numerical Methods PEE4L-M\nInstructor: Engr. Melanie T. Iradiel\n")
+
+i = 1;
+arrayOfNums = [];
+result = 0;
+
+while i <= 10
+    if i <= 5
+    else
+        arrayOfNums(end + 1) = i;
+        result = result + i;
+    end
+    i = i + 1;
+end
+
+disp("Summation of numbers greater than 5 only from 1 to 10 using for loop.")
+disp("The numbers are " + num2str(arrayOfNums))
+disp("The sum is " + result)

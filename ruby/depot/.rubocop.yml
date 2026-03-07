@@ -1,0 +1,24 @@
+# Omakase Ruby styling for Rails
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+
+AllCops:
+  # Enable new cops as they are released in newer versions of RuboCop.
+  NewCops: enable
+  # Exclude certain files or directories from being linted.
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+
+# Adjust common style rules as needed.
+Style/StringLiterals:
+  # Enforce single quotes for consistency.
+  EnforcedStyle: single_quotes
+
+Layout/LineLength:
+  # Set a custom maximum line length.
+  Max: 120
+
+# Disable a specific cop if you don't agree with the rule.
+Style/Documentation:
+  Enabled: false

@@ -1,0 +1,28 @@
+<div id="<%= dom_id cart %>" class="my-3">
+  <h2 class="font-bold text-lg mb-3">Your Cart</h2>>
+
+  <table class="table-auto">
+    <% cart.line_items.each do |line_item| %>
+      <tr>
+        <td class="pr-4"><%= button_to "-", line_item, method: :delete, form_class: "sm:inline-block mt-2 sm:mt-0 sm:ml-2", class: "w-full rounded-md px-3.5 py-1.5 text-white bg-red-600 hover:bg-red-500 font-medium cursor-pointer", data: { turbo_confirm: "Remove \"#{line_item.product.title}\" from the cart?" } %></td>
+        <td class="text-right"><%= line_item.quantity %></td>
+        <td class="px-2">&times;</td>
+        <td class="pr-2">
+          <%= line_item.product.title %>
+        </td>
+        <td class="text-right font-bold">
+          <%= number_to_currency(line_item.total_price) %>
+        </td>
+      </tr>
+    <% end %>
+
+    <tfoot>
+      <tr>
+        <th class="text-right pr-2 pt-2" colspan="4">Total:</th>
+        <td class="text-right pt-2 font-bold border-t-2 border-black">
+          <%= number_to_currency(cart.total_price) %>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>

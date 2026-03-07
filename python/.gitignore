@@ -1,0 +1,17 @@
+converters.py
+dice.py
+minus.py
+Python-Cheat-Sheet.pdf
+pythonTutorial.py
+tempCodeRunnerFile.py
+utils.py
+ecommerce
+*__pycache__*
+*.xlsx
+*.pyc
+*.png
+*.code-workspace
+build/
+dist/
+*.spec
+*.txt

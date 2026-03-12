@@ -15,6 +15,7 @@ def do_that():
 
 @my_decorator
 def do_this():
+    t.sleep(1)
     print('Doing this')
 
 do_this()

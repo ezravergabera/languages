@@ -12,4 +12,4 @@ def timer():
 x = threading.Thread(target=timer , daemon=True)
 x.start()
 
-answer = input("Do you wish to exit?\n")
+answer = input("Press any key to stop?\n")

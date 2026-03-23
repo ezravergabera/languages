@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Almaine",
+        "breed": "Shih Tzu"
+    },
+    {
+        "id": "2",
+        "name": "Cloud",
+        "breed": "Shih Tzu"
+    },
+    {
+        "id": "3",
+        "name": "Fiona",
+        "breed": "Mini Pincher"
+    },
+    {
+        "id": "4",
+        "name": "Kobe",
+        "breed": "Shih Tzu"
+    },
+    {
+        "id": "5",
+        "name": "Bebe Boi",
+        "breed": "Shih Tzu"
+    },
+    {
+        "id": "6",
+        "name": "Kairi",
+        "breed": "Shih Tzu"
+    }
+]

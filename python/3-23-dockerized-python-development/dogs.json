@@ -28,5 +28,20 @@
         "id": "6",
         "name": "Kairi",
         "breed": "Shih Tzu"
+    },
+    {
+        "id": "7",
+        "name": "Mamba",
+        "breed": "Shih Tzu"
+    },
+    {
+        "id": "8",
+        "name": "Otep",
+        "breed": "Dawg"
+    },
+    {
+        "id": "9",
+        "name": "Kimmy",
+        "breed": "Ascool"
     }
 ]
